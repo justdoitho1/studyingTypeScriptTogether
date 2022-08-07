@@ -5,7 +5,6 @@
         "watch": true, // watch for changes 
         "outDir": "./dist", // output directory. 생성된 자바스크립트 파일을 이곳에 저장한다.
         "lib" : ["dom","ES6"], // 이 라이브러리 추가해야 console.log()같은 웹 api 인식
-        
-
+        "experimentalDecorators": true
     }
 }
